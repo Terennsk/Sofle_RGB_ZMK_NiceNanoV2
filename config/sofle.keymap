@@ -1643,9 +1643,7 @@
                  &lwin_cad  &kp LALT  &kp LCTRL  &td_ll_l3  &ret_menu     &kp SPACE   &td_rl_l3  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&tab_browser>;
         };
 
         lower_layer {
